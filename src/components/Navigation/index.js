@@ -30,15 +30,15 @@ const NavigationAuth = () => (
 
 const NavigationNonAuth = () => (
 	<>
-	{/*<ul>
-			<li>*/}
+	<ul>
+			<li>
 				<Link to={ROUTES.SIGN_IN}> Sign In </Link>
-	{/*		</li>
-			<li>*/}
+			</li>
+			<li>
 				<Link to={ROUTES.LANDING}> Landing </Link>
-	{/*		</li>
+			</li>
 
-	</ul>*/}
+	</ul>
 	</>
 );
 
